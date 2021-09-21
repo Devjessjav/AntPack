@@ -1,0 +1,40 @@
+.mt5{
+    margin-top: 5%;
+}
+.title-text{
+    text-align: center;
+}
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.mat-card {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.mat-card-avatar {
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.margin-data{
+    margin-bottom: 5px;
+    margin-top:0px;
+}
+
+/* Responsive Styles */
+@media screen and (min-width: 1024px) {
+    .container{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
